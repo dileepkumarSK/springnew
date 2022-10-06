@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/nanidileepy/Spring.git"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="bitbucket.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="skumar &lt;skumar@skumar-ThinkPad-L470&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="skumar &lt;skumar@skumar-ThinkPad-L470&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="/home/skumar/git/Spring/.git">
+			<item value="false"/>
+			<item value="skumar &lt;skumar@skumar-ThinkPad-L470&gt;"/>
+			<item value="Spring"/>
+			<item value="skumar &lt;skumar@skumar-ThinkPad-L470&gt;"/>
+			<item value="0000000000000000000000000000000000000000"/>
+			<item value="0"/>
+			<item value="false"/>
+			<item value=""/>
+		</list>
+		<list key="/home/skumar/git/repository/Spring/.git">
+			<item value="empty"/>
+		</list>
+	</section>
+</section>

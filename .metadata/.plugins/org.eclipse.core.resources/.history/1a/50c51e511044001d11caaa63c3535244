@@ -1,0 +1,12 @@
+package com.mvc.beans;
+
+import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@org.springframework.stereotype.Controller("con")
+public class Controller {
+	@RequestMapping("/")
+	public String showmypage() {
+		 return "main-menu"; 
+	}
+}

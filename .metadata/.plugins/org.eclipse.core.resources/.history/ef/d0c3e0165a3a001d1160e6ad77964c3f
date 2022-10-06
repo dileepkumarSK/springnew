@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<bean id="add" class="com.sci.beans.Addition">
+
+		<constructor-arg value="10" />
+		<constructor-arg value="109" />
+		<constructor-arg value="Raja" />
+
+
+	</bean>
+	<bean id="div" class="com.sci.beans.Division">
+		<constructor-arg  index="0" value="10" />
+		<constructor-arg index="1" value="100" />
+	</bean>
+	<bean id="mul" class="com.sci.beans.Multiplication">
+
+		<constructor-arg value="10" index="1" />
+		<constructor-arg value="10" type="java.lang.string" />
+		<constructor-arg value="10" index="3" />
+	</bean>
+	<bean id="sub" class="com.sci.beans.substraction">
+		<constructor-arg value="34" name="x" />
+		<constructor-arg value="21" name="y" />
+	</bean>
+
+
+
+</beans>

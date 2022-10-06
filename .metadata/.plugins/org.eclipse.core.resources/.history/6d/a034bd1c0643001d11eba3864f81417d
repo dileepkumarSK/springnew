@@ -1,0 +1,11 @@
+package com.nxml.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.nxml.cfgs.Config;
+
+public class NOXmlTest {
+
+	ApplicationContext ap= new AnnotationConfigApplicationContext(Config.class); 
+}

@@ -1,0 +1,34 @@
+package com.nxml.cfgs;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.nxml.beans.Amazon;
+import com.nxml.beans.Bluedart;
+import com.nxml.beans.Courier;
+import com.nxml.beans.Dtdc;
+import com.nxml.beans.Grocery;
+import com.nxml.beans.Moblies;
+
+@Configuration
+public class ApplicationContext {
+	@Bean
+	public Amazon mbl() {
+		return new Moblies();
+	}
+
+	@Bean
+	public Amazon grc() {
+		return new Grocery();
+	}
+
+	@Bean
+	public Courier dtdc() {
+		return new Dtdc();
+	}
+
+	@Bean
+	public Courier bldt() {
+		return new Bluedart();
+	}
+}

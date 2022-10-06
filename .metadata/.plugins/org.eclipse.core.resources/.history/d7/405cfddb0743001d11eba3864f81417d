@@ -1,0 +1,19 @@
+package com.nxml.beans;
+
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component
+@Primary
+public class Bluedart implements Courier {
+	private String name;
+	private String age;
+	private String sex;
+	private String job;
+	@Override
+	public String Company() {
+
+		return "Bluedart";
+	}
+
+}

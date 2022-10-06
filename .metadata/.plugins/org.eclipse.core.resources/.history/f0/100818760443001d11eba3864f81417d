@@ -1,0 +1,11 @@
+package com.nxml.beans;
+
+public class Dtdc implements Courier {
+
+	@Override
+	public String Company() {
+		
+		return "DtDc";
+	}
+
+}

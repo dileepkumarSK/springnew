@@ -1,0 +1,39 @@
+package pro;
+
+import java.util.LinkedHashSet;
+import java.util.Random;
+import java.util.Set;
+
+public class Suffleing {
+
+	
+	public void top10(int[] a)
+	{
+	
+		Set s=new LinkedHashSet();
+		Random r=new Random(a.length);
+		int i=1;
+		while(i!=11) {
+			int ra=r.nextInt();
+			if(!s.contains(ra)) {
+				System.out.println(a[ra]);
+				s.add(ra);
+			}else
+			{
+				while(!s.contains(ra))
+				{
+					
+				}
+			}
+			i++;
+		}
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

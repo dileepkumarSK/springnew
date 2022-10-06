@@ -1,0 +1,11 @@
+package com.lok.beans;
+
+public class CastingLIst {
+
+	public CastingLIst() {
+		System.out.println("CastingLIst.CastingLIst()");
+	}
+
+	
+	
+}

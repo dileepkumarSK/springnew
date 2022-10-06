@@ -1,0 +1,13 @@
+package com.two.beans;
+
+
+
+public class Vehicle {
+
+	
+	public void lights() {
+		System.out.println("Vehicle.lights()");
+	}
+	
+	
+}

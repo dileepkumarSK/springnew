@@ -1,0 +1,19 @@
+package com.sci.beans;
+
+public class Multiplication {
+	
+	private int x,y;
+
+	public Multiplication(int x, int y) {
+	
+		this.x = x;
+		this.y = y;
+	}
+	
+         public int method()
+         {
+        	 return x*y;
+         }
+	
+
+}

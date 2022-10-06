@@ -1,0 +1,17 @@
+package com.two.beans;
+
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Component
+@Scope("prototype")
+public class Engine {
+
+	public void start() {
+		System.out.println("Vehicle.start()");
+	}
+
+	public void Stop() {
+		System.out.println("Vehicle.Stop()");
+	}
+}

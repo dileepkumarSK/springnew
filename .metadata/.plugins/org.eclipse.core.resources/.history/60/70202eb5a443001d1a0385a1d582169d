@@ -1,0 +1,8 @@
+package com.mvc.beans;
+
+import org.springframework.stereotype.Component;
+
+@org.springframework.stereotype.Controller
+public class Controller {
+
+}

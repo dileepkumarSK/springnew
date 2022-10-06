@@ -1,0 +1,9 @@
+package com.ano.beans.scopes;
+
+public interface Director {
+   String directorName();
+   public static void m1()
+   {
+	   System.out.println("Director.m1()");
+   }
+}

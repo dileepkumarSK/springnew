@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+
+
+	<bean id="mysqlDrds" class="com.zaxxer.hikari.HikariDataSource">
+		<property name="driverClassName" value="${driver}" />
+		<property name="url" value="${url}" />
+		<property name="username" value="${username}" />
+		<property name="password" value="${password}" />
+	</bean>
+
+	<bean id="bo" class="com.smi.bo.EmployeeBO"
+		autowire="byType" />
+	<bean id="dto" class="com.smi.dto.EmployeeDTO"
+		autowire="byType" />
+	<bean id="vo" class="com.smi.vo.EmployeeVO"
+		autowire="byType" />
+	<bean id="dao" class="com.smi.dao.EmployeeDataIMPL"
+		autowire="byType" />
+	<bean id="ser" class="com.smi.service.EmployeeServiceimp"
+		autowire="byType" />
+	<bean id="cont" class="com.smi.controller.EmployeeController"
+		autowire="byType" />
+
+
+
+	<context:property-placeholder
+		location="com/smi/commons/jdbc.properties" />
+
+	<!-- <context:component-scan base-package="src/main/java"></context:component-scan> -->
+
+</beans>

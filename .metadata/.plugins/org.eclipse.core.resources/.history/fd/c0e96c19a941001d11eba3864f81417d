@@ -1,0 +1,15 @@
+package com.lcm.beans;
+
+public class VotingEligibltyTest {
+
+	public VotingEligibltyTest() {
+		System.out.println("VotingEligibltyTest.VotingEligibltyTest()");
+	}
+
+	public void initmethod()
+	{
+		System.out.println("VotingEligibltyTest.initmethod()");
+	}
+	
+	
+}

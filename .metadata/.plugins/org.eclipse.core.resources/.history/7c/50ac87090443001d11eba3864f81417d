@@ -1,0 +1,11 @@
+package com.nxml.beans;
+
+public class Moblies implements Amazon {
+
+	@Override
+	public void Delivery(Courier c) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

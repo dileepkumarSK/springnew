@@ -1,0 +1,5 @@
+package com.lcm.beans;
+
+public @interface PreConstuct {
+
+}

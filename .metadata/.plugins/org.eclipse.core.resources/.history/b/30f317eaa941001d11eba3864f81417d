@@ -1,0 +1,10 @@
+package com.lcm.test;
+
+public class TestLifeBeansMethods {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.two.beans;
+
+import java.lang.reflect.Method;
+
+public class Vehicle {
+
+	public void start() {
+		System.out.println("Vehicle.start()");
+	}
+	public void lights() {
+		System.out.println("Vehicle.lights()");
+	}
+	
+	public void Stop() {
+		System.out.println("Vehicle.Stop()");
+	}
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+
+
+	<bean id="mysqlDrds"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName"
+			value="com.mysql.cj.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql:///dileep" />
+		<property name="username" value="root" />
+		<property name="password" value="Password@123" />
+	</bean>
+
+
+	<bean id="daoimp" class="com.layer.Dao.StudentDAOImpl">
+		<constructor-arg ref="mysqlDrds"></constructor-arg>
+	</bean>
+
+
+	<bean id="service" class="com.layer.service.StudentServiceImpl">
+		<constructor-arg ref="daoimp"></constructor-arg>
+	</bean>
+	
+		<bean id="controller" class="com.layer.controller.StudentController">
+		<constructor-arg ref="service"></constructor-arg>
+	</bean>
+	
+	
+	
+	
+</beans>

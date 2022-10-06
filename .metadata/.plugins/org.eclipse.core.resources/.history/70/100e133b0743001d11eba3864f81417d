@@ -1,0 +1,11 @@
+package com.nxml.beans;
+
+public class Bluedart implements Courier {
+
+	@Override
+	public String Company() {
+		
+		return "Bluedart";
+	}
+
+}

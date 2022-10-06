@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SeconminiProject-lib/src/main/java/com/smi/commons/jdbl.properties&apos; to &apos;jdbc.properties&apos;" description="Rename resource &apos;jdbl.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/smi/commons/jdbl.properties" name="jdbc.properties" stamp="1663928536173" updateReferences="true"/>
+</session>

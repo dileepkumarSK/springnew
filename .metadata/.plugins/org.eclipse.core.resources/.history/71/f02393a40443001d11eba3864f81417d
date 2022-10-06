@@ -1,0 +1,5 @@
+package com.nxml.cfgs;
+
+public class ApplicationContext {
+
+}

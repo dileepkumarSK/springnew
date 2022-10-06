@@ -1,0 +1,15 @@
+package com.nxml.beans;
+
+public class Moblies implements Amazon {
+ 
+    private Courier c;	
+	public Moblies(Courier c) {
+		
+		this.c = c;
+	}
+	public void Delivery(Courier c) {
+		System.out.println("Moblie  will Delivary From "+c.Company());
+
+	}
+
+}
