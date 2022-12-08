@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;LoyalityMethods&apos;" deleteContents="false" description="Delete resource &apos;LoyalityMethods&apos;" element1="/LoyalityMethods" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1664367814223"/>&#x0A;<refactoring comment="Delete resource &apos;LoyalityMethods-lib&apos;" deleteContents="false" description="Delete resource &apos;LoyalityMethods-lib&apos;" element1="/LoyalityMethods-lib" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1664427962388"/>
-</session>

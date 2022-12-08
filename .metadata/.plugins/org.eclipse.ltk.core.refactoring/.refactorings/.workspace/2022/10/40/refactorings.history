@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;SpringLIfeCycleMethods/src/main/java/com/lcm/test/App.java&apos;" deleteContents="false" description="Delete resource &apos;SpringLIfeCycleMethods/src/main/java/com/lcm/test/App.java&apos;" element1="/SpringLIfeCycleMethods/src/main/java/com/lcm/test/App.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1664642458112"/>
-</session>

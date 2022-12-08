@@ -1,5 +1,0 @@
-package com.ano.beans.scopes;
-
-public interface Director {
-   String directorName();
-}

@@ -1,5 +1,0 @@
-package com.smi.service;
-
-public interface employeeService {
-
-}
