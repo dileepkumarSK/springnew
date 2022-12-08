@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <modules>
-  <module moduleId="org.eclipse.jst.j2ee.server:MvcForm" serverId="apache-tomcat-9.0.62 at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:MvcForm" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Student_register" serverId="apache-tomcat-9.0.62 at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:AopMvc" serverId="Dileep"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:Student_register" serverId="apache-tomcat-9.0.62 at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:SecuritySpring" serverId="mainServer"/>
   <module moduleId="org.eclipse.jst.j2ee.server:MvcStart" serverId="apache-tomcat-9.0.62 at localhost"/>
 </modules>

@@ -1,5 +1,0 @@
-package com.nxml.beans;
-
-public interface Courier {
-
-}

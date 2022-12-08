@@ -14,7 +14,7 @@
 	<mvc:annotation-driven />
 
 
-	<bean
+	<bean id="b1"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix">
 			<value>/WEB-INF/views/</value>
@@ -23,4 +23,9 @@
 			<value>.jsp</value>
 		</property>
 	</bean>
+	<bean id="b2"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		
+	</bean>
+	
 </beans>

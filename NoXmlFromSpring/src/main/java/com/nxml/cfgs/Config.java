@@ -1,5 +1,6 @@
 package com.nxml.cfgs;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
@@ -12,6 +13,8 @@ import com.nxml.beans.Courier;
 import com.nxml.beans.Dtdc;
 import com.nxml.beans.Grocery;
 import com.nxml.beans.Moblies;
+import com.nxml.qulifiers.Female;
+import com.nxml.qulifiers.Male;
 
 @Configuration
 @ComponentScan("com.nxml")
@@ -26,4 +29,16 @@ public class Config {
 	 * 
 	 * @Bean public Courier bldt() { return new Bluedart(); }
 	 */
+
+	@Bean
+	@Qualifier( "dileep")
+	public Male male() {
+		return new Male();
+	}
+
+	@Bean
+	public Female female() {
+		return new Female();
+	}
+
 }

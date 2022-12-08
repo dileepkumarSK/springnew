@@ -1,5 +1,5 @@
-GitRepositoriesView.GitDirectories=/home/skumar/git/Spring/newlocal/.git\:
-GitRepositoriesView.GitDirectories.relative=/home/skumar/git/Spring/newlocal/.git\:
+GitRepositoriesView.GitDirectories=/home/skumar/git/Spring/newlocal/.git\:/home/skumar/java/spring/.git\:
+GitRepositoriesView.GitDirectories.relative=/home/skumar/git/Spring/newlocal/.git\:.git\:
 RepositoryGroups.uuids=
 RepositorySearchDialogSearchPath=/home/skumar/git
 eclipse.preferences.version=1

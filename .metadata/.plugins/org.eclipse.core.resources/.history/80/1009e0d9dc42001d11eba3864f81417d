@@ -1,9 +1,0 @@
-package com.lok.beans;
-
-public class MovieStart {
- 
-	private CastingLIst cl;
-	
-	
-	
-}
